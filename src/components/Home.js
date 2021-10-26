@@ -5,7 +5,7 @@ export default function Home() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (searchtext.length === 0) {
-            alert("Enter text to search")
+            alert("Enter text")
             return;
         }
         console.log(searchtext);
